@@ -18,7 +18,7 @@
         android:id="@+id/textViewIntensity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Intensidad: 0"
+        android:text="Intensidad1: 0"
         android:textSize="18sp"
         android:layout_marginTop="16dp" />
 
