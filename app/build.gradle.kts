@@ -36,6 +36,12 @@ dependencies {
     implementation(libs.appcompat)
     implementation(libs.material)
     implementation(libs.activity)
+    implementation(libs.appcompat)  // Dependencia de appcompat
+    implementation(libs.material)  // Dependencia de material
+
+    // Ahora agregas la dependencia de OkHttp
+    implementation(libs.okhttp)  // Aquí hace referencia a lo que configuraste en libs.versions.toml
+
     implementation(libs.constraintlayout)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)

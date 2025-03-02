@@ -3,23 +3,27 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:gravity="center">
 
-    <!-- SeekBar para ajustar la intensidad del LED -->
     <SeekBar
         android:id="@+id/seekBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:max="255"
-        android:progress="0" />
+        android:max="255" />
 
-    <!-- TextView para mostrar el valor actual de la intensidad -->
     <TextView
-        android:id="@+id/textViewIntensity"
+        android:id="@+id/intensityValue"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="18sp"
         android:text="Intensidad: 0"
-        android:layout_marginTop="16dp" />
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
 
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        android:layout_marginTop="16dp"/>
 </LinearLayout>
